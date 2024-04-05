@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>TEXT Dimensions test</title>
+    <script="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      
+              function getTextWidthDOM(text, font) {
+                var f = font,
+                o = $('<span>' + text + '</span>')
+                    .css({'font': f, 'float': 'left', 'white-space': 'nowrap'})
+                    .appendTo($('body')),
+                w = (o.width(), o.height());
+                return w;
+              }
+    
+        console.log(getTextWidthDOM("Hallo du da", "bold 16pt arial"))
+    </script>
+  </head>
+  <body>
+       
+  </body>
+
+</html>

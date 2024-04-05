@@ -1,0 +1,8 @@
+.env*
+googleDE.jpg
+__pycache__
+venv
+tips_ids.txt
+subs.txt
+.vim
+.mypy_cache
